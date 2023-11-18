@@ -1,0 +1,307 @@
+/* Pro.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  
+  /* Header styles */
+  .header {
+    width: 100%;
+    max-width: 1728px;
+    height: 86px;
+    flex-shrink: 0;
+    background: #fcaf02;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .right-section {
+    margin-right: 20px; /* Adjust the space as needed */
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .left-section span {
+    margin-right: 20px; /* Adjust the space between each span as needed */
+  }
+  
+  .rightside {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    width: 736px;
+    height: 78px;
+    top: 49px;
+    left: 100px;
+  }
+  
+  .belowtext {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 917px;
+    position: relative;
+    left: 20px;
+    top: 70px;
+  }
+  
+  .logo {
+    height: 30px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 130px;
+    right: 9px;
+  }
+  
+  .login {
+    border-radius: 500px;
+    background: #FCAF02;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    width: 250px;
+    height: 40px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 530px;
+    left: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact {
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 630px;
+    left: 63px;
+  }
+  
+  .form,
+  .form1,
+  .form2,
+  .form3 {
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 100px;
+    border: 3px solid #FCAF02;
+    position: absolute;
+    width: 100%;
+    max-width: 1317px;
+    left: 63px;
+    height: 50px;
+    background-color: #000;
+    color: #FCAF02;
+    padding-left: 26px;
+  }
+  
+  .form {
+    top: 750px;
+  }
+  
+  .form1 {
+    top: 850px;
+  }
+  
+  .form2,
+.form3 {
+    width: calc(50% - 30px); /* Adjust the width as needed, considering the margin and border widths */
+}
+
+.form2 {
+    top: 950px;
+    left: 63px;
+    margin-right: 10px; /* Add some margin between the forms */
+    width: 620px;
+    padding-left: 30px;
+}
+
+.form3 {
+    top: 950px;
+    right: 63px;
+    left: 750px;
+    width: 620px;
+    padding-left: 30px;
+    margin-right: 10px;
+   
+    
+}
+  
+  .form4 {
+    width: 325px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+    background: #FCAF02;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 82px; /* Center the text vertically */
+    text-align: center; /* Center the text horizontally */
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+  }
+  
+  /* Table styles */
+  .table-container {
+    border: 2px solid #FCAF02; /* Outer border */
+    margin: 20px; /* Add some margin for better visibility */
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+  }
+  
+  .table {
+    position: absolute;
+    left: 40px;
+    color: #FCAF02;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: #FCAF02;
+    position: absolute;
+    top: 1300px;
+    border-collapse: collapse; /* Collapse border spacing */
+    width: 90%; /* Ensure table takes full width */
+    border: 2px solid #FCAF02; /* Add a 2px border around the entire table */
+    padding: 15px; /* Add padding to the left and right of the table cells */
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px 0; /* Add padding to the top and bottom of the table cells */
+  }
+  
+  .table th {
+    border: 1px solid #FCAF02; /* Add border lines around header cells */
+    background-color: #000; /* Header background color */
+  }
+  
+  /* Set specific widths for each column */
+  .table th:first-child,
+  .table td:first-child {
+    width: 10%;
+    border-right: 1px solid #FCAF02; /* Add vertical border lines between S.NO and Startup Name */
+  }
+  
+  .table th:nth-child(2),
+  .table td:nth-child(2) {
+    width: 35%;
+    border-right: 1px solid #FCAF02; /* Add vertical border lines between Startup Name and Startup Description */
+  }
+  
+  /* Add border lines to the row with "S.NO" in the SNO column */
+  .table tr[data-sno="S.NO"] {
+    border-bottom: 1px solid #FCAF02;
+  }
+  
+  /* Add yellow background and border lines to the row with "0.0" in the SNO column */
+  .table tr[data-sno="0.0"] {
+    background: #FCAF02;
+    border-top: 1px solid #FCAF02;
+    border-bottom: 1px solid #FCAF02;
+    border-right: 1px solid #FCAF02; /* Extend the vertical line to the bottom */
+    color: #000; /* Set text color to dark black */
+  }
+  
+  /* Remove bottom border for the last row */
+  .table tr:last-child {
+    border-bottom: none;
+  }
+  
+  /* Remove right border for the last cell in each row */
+  .table td:last-child {
+    border-right: none;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 1200px) {
+    .rightside,
+    .belowtext,
+    .form,
+    .form1,
+    .form2,
+    .form3,
+    .form4 {
+      width: 100%;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+  
+    .form,
+    .form1,
+    .form2,
+    .form3 {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .header {
+      height: 120px; /* Adjust header height for smaller screens */
+    }
+  
+    .left-section,
+    .right-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .right-section {
+      margin-top: 10px; /* Adjust spacing */
+    }
+  
+    .rightside,
+    .belowtext {
+      font-size: 24px; /* Adjust font size */
+    }
+  
+    .table-container {
+      margin: 10px; /* Adjust margin for better visibility on small screens */
+    }
+  }
+  
+  /* Add more styles as needed */
+  
